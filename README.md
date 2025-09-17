@@ -10,6 +10,7 @@ simple-notepad-extension-main.zip
 ```
 ---
 # To install the extension
+(do not forget to remove README)
 after finish, go to chrome://extensions
 enable developer mode.
 click load unpacked
