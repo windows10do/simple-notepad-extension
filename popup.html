@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="toolbar">
+    <select id="fileMenu">
+      <option disabled selected>File</option>
+      <option value="new">New</option>
+      <option value="save">Save</option>
+    </select>
+    <select id="viewMenu">
+      <option disabled selected>View</option>
+      <option value="zoomIn">Zoom In</option>
+      <option value="zoomOut">Zoom Out</option>
+    </select>
+    <select id="fontSizeMenu">
+      <option disabled selected>Font Size</option>
+      <option value="small">Small</option>
+      <option value="medium">Medium</option>
+      <option value="large">Large</option>
+    </select>
+    <select id="fontStyleMenu">
+      <option disabled selected>Font Style</option>
+      <option value="Arial">Arial</option>
+      <option value="Courier New">Courier New</option>
+      <option value="Georgia">Georgia</option>
+    </select>
+    <button id="aboutBtn">About</button>
+  </div>
+
+  <textarea id="noteArea" placeholder="Write your notes here..."></textarea>
+  <script src="popup.js"></script>
+</body>
+</html>
